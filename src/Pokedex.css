@@ -1,0 +1,59 @@
+
+@media screen and (min-width: 1024px){
+    .Pokedex{
+        padding: 1.5rem;
+        max-height: 60vh;
+    }
+    
+    .Pokedex header h2{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #9BA9BB;
+    }
+    
+    .Pokedex-winner{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #00b300;
+    }
+    
+    .Pokedex-loser{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: red;
+    }
+    
+    .Pokedex section {
+        margin: 1.5rem 5rem;
+        min-height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1rem;
+        justify-content: space-evenly;
+    
+    }
+    
+    .Pokedex section {
+        margin: 1.5rem 2rem;
+        min-height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: .5rem;
+        justify-content: space-evenly;
+    
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .Pokedex section {
+        margin: 1.5rem 5rem;
+        min-height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1rem;
+        justify-content: space-evenly;
+    
+    }
+}
